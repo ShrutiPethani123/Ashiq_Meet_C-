@@ -39,6 +39,12 @@ class Employee{
         department=dep;
     }
 
+    Employee(float dep) // perametrized
+    {
+        cout<<"Perametrized Constructor called....."<<endl;
+        department=dep;
+    }
+
     Employee(Employee &e)
     {
         cout<<"Copy Constructor called....."<<endl;
