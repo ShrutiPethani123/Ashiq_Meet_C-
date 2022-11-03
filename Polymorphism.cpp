@@ -5,8 +5,12 @@ Types of polymorphism
 
 1. Compile time  (Early binding , static polymorphism )
     1. Method overloading 
+
+        -> changing number of arguments
+        -> changing data type of argument
+
     2. Operator Overloading
-2. Run time (Late binding  , dynamic polumorphism)
+2. Run time (Late binding  , dynamic polymorphism)
     1. Method overriding
 
 
@@ -25,10 +29,10 @@ class Calculator{
         cout<<"add-> "<<a+3<<endl;
     }
 
-    void add(int x,int y)
-    {
-        cout<<"add x+y -> "<<x+y<<endl;
-    }
+    // void add(int x,int y)
+    // {
+    //     cout<<"add x+y -> "<<x+y<<endl;
+    // }
 
     void add(float x,float y)
     {
@@ -40,7 +44,10 @@ class Calculator{
         cout<<"add  int float x+y -> "<<a+b<<endl;
     }
 
-    void add(float c , int )
+    // int add(int c , int d )
+    // {
+
+    // }
 
 };
 
